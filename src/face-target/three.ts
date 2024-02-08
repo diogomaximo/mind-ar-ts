@@ -157,7 +157,7 @@ class MindARThree {
         const stream = await navigator.mediaDevices.getUserMedia({
           audio: false,
           video: {
-            facingMode: this.shouldFaceUser ? 'face' : 'environment',
+            facingMode: this.shouldFaceUser ? 'user' : 'environment',
           },
         });
 
